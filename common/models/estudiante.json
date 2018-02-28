@@ -1,0 +1,30 @@
+{
+  "name": "Estudiante",
+  "plural": "Estudiantes",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "Nombre": {
+      "type": "string",
+      "required": true,
+      "default": "Marcel"
+    },
+    "Apellido": {
+      "type": "string",
+      "required": true,
+      "default": "Benavides"
+    },
+    "Carnet": {
+      "type": "string",
+      "required": true,
+      "default": "000007802"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
